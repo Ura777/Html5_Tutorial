@@ -90,5 +90,16 @@
   * 修改完成後儲存檔案 &gt; 重新啟動Tomcat
   * 虛擬資料夾與實體資料夾的名稱都不能有中文字
 * * *
+## Ch02 - 基本的Html5
+* 第1個Html5
+  * Hello World!!!
+* &lt;section&gt;標籤
+* &lt;nav&gt;標籤
+* &lt;header&gt;與&lt;footer&gt;標籤
+* &lt;aside&gt;標籤
+* &lt;address&gt;標籤
+* &lt;time&gt;標籤
+  * pubdate屬性為發布日期
+* * *
 
 
