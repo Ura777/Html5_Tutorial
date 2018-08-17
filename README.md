@@ -6,6 +6,7 @@
 * [課程介紹](https://github.com/Ura777/Html5_Tutorial#%E8%AA%B2%E7%A8%8B%E4%BB%8B%E7%B4%B9)
   * [Ch01 - Tomcat的管理](https://github.com/Ura777/Html5_Tutorial#ch01---tomcat%E7%9A%84%E7%AE%A1%E7%90%86)
   * [Ch02 - 基本的Html5](https://github.com/Ura777/Html5_Tutorial#ch02---%E5%9F%BA%E6%9C%AC%E7%9A%84html5)
+  * [Ch03 - 文字與排版]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -94,13 +95,69 @@
 ## Ch02 - 基本的Html5
 * 第1個Html5
   * Hello World!!!
-* &lt;section&gt;標籤
-* &lt;nav&gt;標籤
-* &lt;header&gt;與&lt;footer&gt;標籤
-* &lt;aside&gt;標籤
-* &lt;address&gt;標籤
-* &lt;time&gt;標籤
+* section
+  * 區段結構
+  * 不要把section拿來當作div的替代標籤使用
+* nav
+  * 導引
+* header與footer
+  * header為頁首
+  * footer為頁尾
+* aside
+  * 側邊欄
+* address
+  * 可以放置聯絡資訊
+  * 文字樣式為斜體
+* time
   * pubdate屬性為發布日期
+* * *
+## Ch03 - 文字與排版
+* p
+  * 段落
+* blockquote
+  * 引用
+* annotation
+  * 註解
+* hr
+  * 水平線
+* pre
+  * 定義格式
+  * 可以保留空格與換行符號，通常用來顯示程式碼。
+* h1~h6
+  * 標題樣式
+  * 1的字體最大，6的字體最小。
+* div
+  * 區塊
+  * 可以與CSS搭配使用
+* font
+  * Html5不支援，請使用CSS代替。
+* sup與sub
+  * sup為上標效果
+  * sub為下標下果
+* ruby、rt與rp
+  * 可以顯示注音或是拼音
+  * 如果瀏覽器不支援ruby標籤，將會顯示rp標籤內的內容。
+* br
+  * 換行
+* span
+  * 同一行的區塊
+  * 可以與CSS搭配使用
+* ul、li
+  * 沒有排序的項目清單
+* ol、li
+  * 有排序的項目清單
+* dl、dt、dd
+  * 可以製造出縮排的效果
+* ins與del
+  * ins為插入
+  * del為刪除
+* 特殊符號
+  * &copy;
+  * &lt;
+  * &gt;
+  * &quot;
+  * &amp;
+  * 半形空白
 * * *
 
 
