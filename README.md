@@ -9,6 +9,7 @@
   * [Ch03 - 文字與排版](https://github.com/Ura777/Html5_Tutorial#ch03---%E6%96%87%E5%AD%97%E8%88%87%E6%8E%92%E7%89%88)
   * [Ch04 - 表格](https://github.com/Ura777/Html5_Tutorial#ch04---%E8%A1%A8%E6%A0%BC)
   * [Ch05 - 表單](https://github.com/Ura777/Html5_Tutorial#ch05---%E8%A1%A8%E5%96%AE)
+  * [Ch06 - 超連結]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -260,6 +261,31 @@
   * 顯示某個範圍內的比例或量標
 * optgroup
   * 替一群option加上共同的標籤
+* * *
+## Ch06 - 超連結
+* a
+  * 超連結標籤
+  * 常用屬性
+    * href
+    * target
+* 連結至Email
+  * href格式為mailto:電子信箱地址
+  * 預設信件標題
+ 
+        例如：
+        <a href="mailto:123@qoo.com.tw?subject=我的意見">
+ 
+* 製作書籤
+  * 書籤的起點
+ 
+        例如：
+        <a href="#黑面琵鷺">黑面琵鷺</a>
+ 
+  * 書籤的終點
+ 
+        例如：
+        <h2 id="黑面琵鷺">黑面琵鷺</h2>
+ 
 * * *
 
 
