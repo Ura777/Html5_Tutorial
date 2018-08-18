@@ -10,6 +10,7 @@
   * [Ch04 - 表格](https://github.com/Ura777/Html5_Tutorial#ch04---%E8%A1%A8%E6%A0%BC)
   * [Ch05 - 表單](https://github.com/Ura777/Html5_Tutorial#ch05---%E8%A1%A8%E5%96%AE)
   * [Ch06 - 超連結](https://github.com/Ura777/Html5_Tutorial#ch06---%E8%B6%85%E9%80%A3%E7%B5%90)
+  * [Ch07 - 使用多媒體素材]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -287,5 +288,24 @@
         <h2 id="黑面琵鷺">黑面琵鷺</h2>
  
 * * *
+## Ch07 - 使用多媒體素材
+* img
+  * 圖片
+* map、area
+  * 影像地圖
+  * map定義地圖名稱
+  * area定義地圖區域
+* figure、figcaption
+  * 用來包含影像及其說明，將圖片及說明綁在一起。
+  * figure在最外層
+  * 子標籤是figcaption
+  * figcaption為圖片說明
+* audio
+  * 播放音效、音樂的元件
+* video
+  * 播放影片的元件
+* 搭配Javascript可以控制audio與video元件
+* * *
+
 
 

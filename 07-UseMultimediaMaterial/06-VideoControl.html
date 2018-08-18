@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- video -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>video</title>
+    </head>
+    <body>
+        <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <p>
+            <video id="video1" width="320">
+                <source src="video/movie.mp4" type="video/mp4">
+                <source src="video/movie.ogg" type="video/ogg">
+                你的瀏覽器不支援video元件
+            </video>
+        </div> 
+        <script> 
+            var myVideo = document.getElementById("video1"); 
+            
+            function playPause() { 
+                if (myVideo.paused) 
+                    myVideo.play(); 
+                else 
+                    myVideo.pause(); 
+            } 
+                    
+            function makeBig() { 
+                myVideo.width = 560; 
+            } 
+                    
+            function makeSmall() { 
+                myVideo.width = 220; 
+            } 
+                    
+            function makeNormal() { 
+                myVideo.width = 320; 
+            } 
+        </script>
+    </body>
+</html>

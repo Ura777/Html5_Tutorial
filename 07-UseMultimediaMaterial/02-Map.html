@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- map與area -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>map與area</title>
+    </head>
+    <body>
+        <h2>影像地圖</h2>
+        <!-- 定義地圖名稱 -->
+        <map name="zoo">
+            <!-- 定義地圖區域 -->
+            <!--
+                shape屬性為形狀
+                coords為座標
+            -->
+            <area shape="circle" coords="173,152,34" href="02-MapAfricaAnimal.html" alt="非洲動物區">
+            <area shape="rect" coords="42,159,110,227" href="02-MapBird.html" alt="鳥園">
+            <area shape="poly" coords="338,106,396,125,400,200,300,185" href="02-MapNightAnimal.html" alt="夜行動物館">
+            <area shape="default" nohref>
+        </map>
+        <!-- 使用usemap屬性指定到定義好的地圖-->
+        <img src="image/zoo.JPG" alt="動物園" usemap="#zoo">
+    </body>
+</html>
