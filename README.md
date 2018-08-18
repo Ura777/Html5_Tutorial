@@ -9,7 +9,7 @@
   * [Ch03 - 文字與排版](https://github.com/Ura777/Html5_Tutorial#ch03---%E6%96%87%E5%AD%97%E8%88%87%E6%8E%92%E7%89%88)
   * [Ch04 - 表格](https://github.com/Ura777/Html5_Tutorial#ch04---%E8%A1%A8%E6%A0%BC)
   * [Ch05 - 表單](https://github.com/Ura777/Html5_Tutorial#ch05---%E8%A1%A8%E5%96%AE)
-  * [Ch06 - 超連結]()
+  * [Ch06 - 超連結](https://github.com/Ura777/Html5_Tutorial#ch06---%E8%B6%85%E9%80%A3%E7%B5%90)
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
