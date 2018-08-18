@@ -8,6 +8,7 @@
   * [Ch02 - 基本的Html5](https://github.com/Ura777/Html5_Tutorial#ch02---%E5%9F%BA%E6%9C%AC%E7%9A%84html5)
   * [Ch03 - 文字與排版](https://github.com/Ura777/Html5_Tutorial#ch03---%E6%96%87%E5%AD%97%E8%88%87%E6%8E%92%E7%89%88)
   * [Ch04 - 表格](https://github.com/Ura777/Html5_Tutorial#ch04---%E8%A1%A8%E6%A0%BC)
+  * [Ch05 - 表單]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -186,6 +187,79 @@
     * span
     * style
 * 表格通常會搭配CSS進行修飾，使表格更加地美觀好看。
+* * *
+## Ch05 - 表單
+* form
+  * form為表單的最外層
+  * 常用的屬性
+    * method
+    * action
+  * 子標籤通常為input
+* input
+  * 輸入標籤
+  * 常用的屬性
+    * name
+    * type
+* button
+  * 按鈕
+  * 按鈕的種類
+    * submit
+    * reset
+    * button
+* text
+  * 文字方塊
+* textarea
+  * 文字區域欄位
+* radio
+  * 單選核取元件
+  * name屬性為同樣的名稱時，代表示在同一個群組。
+* checkbox
+  * 複選核取元件
+  * name屬性為同樣的名稱時，代表示在同一個群組。
+* select
+  * 下拉式選單
+  * 加上multiple屬性就可以複選
+* password
+  * 密碼欄位
+* email
+  * 電子信箱地址欄位
+  * 送出表單時，會自動檢查是否符合電子郵件地址的格式。
+* url
+  * 超連結欄位
+* search
+  * 輸入列
+* tel
+  * 電話號碼欄位
+* 與日期或是時間有關的欄位
+  * date
+  * time
+  * month
+  * week
+  * datetime-local
+  * 瀏覽器已經不支援datetime
+* color
+  * 色彩欄位
+* range
+  * 範圍欄位
+* datalist
+  * 資料清單
+  * datalist的id要與input標籤的list屬性名稱相同
+* number
+  * 數字欄位
+* label
+  * 標籤
+* fieldset
+  * 表單分組
+  * 子標籤為legend
+  * legend為分組標題
+* output
+  * 顯示計算或是處理的結果
+* progress
+  * 進度條
+* meter
+  * 顯示某個範圍內的比例或量標
+* optgroup
+  * 替一群option加上共同的標籤
 * * *
 
 

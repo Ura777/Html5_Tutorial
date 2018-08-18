@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- select -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>select</title>
+    </head>
+    <body>
+        <p>
+            下拉式清單
+        </p>
+        <p>
+            請選擇您喜歡的運動：
+        </p>
+        <form method="POST" action="">
+            <!-- size為清單列數 -->
+            <p>
+                <select size="1" name="sport">
+                    <option value="游泳" selected>游泳</option>
+                    <option value="跑步">跑步</option>
+                    <option value="騎自行車">騎自行車</option>
+                    <option value="打籃球">打籃球</option>
+                </select>
+            </p>
+        </form>
+        <p>
+            請選擇您喜歡的運動：(可複選)
+        </p>
+        <form method="POST" action="">
+            <!-- 加上multiple屬性就可以複選 -->
+            <p>
+                <select size="4" name="sport" multiple>
+                    <option value="游泳">游泳</option>
+                    <option value="跑步">跑步</option>
+                    <option value="騎自行車">騎自行車</option>
+                    <option value="打籃球">打籃球</option>
+                </select>
+            </p>
+        </form>
+    </body>
+</html>

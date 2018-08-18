@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- datalist -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>datalist</title>
+    </head>
+    <body>
+        <p>
+            資料清單<br>
+            只有Chrome支援
+        </p>
+        <form method="POST" action="">
+            <!-- datalist的id要與input的list名稱相同-->
+            <p>
+                請輸入要搜尋的文字：<input list="browsers" name="browser"/>
+                <datalist id="browsers">
+                    <option value="Internet Explorer">Internet Explorer</option>
+                    <option value="FireFox">FireFox</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                </datalist>
+                <input type="submit" value="送出" />
+            </p>
+        </form>
+    </body>
+</html>

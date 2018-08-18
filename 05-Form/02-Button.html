@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- button -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>button</title>
+    </head>
+    <body>
+        <p>
+            請輸入帳號密碼
+        </p>
+        <form method="POST" action="">
+            <p>
+                帳號：<input type="text" name="account" />
+            </p>
+            <p>
+                密碼：<input type="password" name="password" />
+            </p>
+            <p>
+                <input type="submit" value="送出" />
+                <input type="reset" value="取消" />
+                <!-- 使用Javascript的history.back() -->
+                <input type="button" value="回上一頁" onclick="javascript:history.back();" />
+            </p>
+        </form>
+    </body>
+</html>
