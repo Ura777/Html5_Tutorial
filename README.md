@@ -7,6 +7,7 @@
   * [Ch01 - Tomcat的管理](https://github.com/Ura777/Html5_Tutorial#ch01---tomcat%E7%9A%84%E7%AE%A1%E7%90%86)
   * [Ch02 - 基本的Html5](https://github.com/Ura777/Html5_Tutorial#ch02---%E5%9F%BA%E6%9C%AC%E7%9A%84html5)
   * [Ch03 - 文字與排版](https://github.com/Ura777/Html5_Tutorial#ch03---%E6%96%87%E5%AD%97%E8%88%87%E6%8E%92%E7%89%88)
+  * [Ch04 - 表格]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -158,6 +159,33 @@
   * &quot;
   * &amp;
   * 半形空白
+* * *
+## Ch04 - 表格
+* table、tr、td、th
+  * table為最外層的表格
+  * tr為列
+  * td為行
+  * th為行標題
+* caption
+  * caption為表格標題
+  * 通常放在table標籤上方
+* colspan屬性
+  * 水平方向的合併
+  * 行的合併
+* rowspan屬性
+  * 垂直方向的合併
+  * 列的合併
+* thead、tbody、tfoot
+  * thead為表首
+  * thead為表身
+  * tfood為表尾
+* colgroup、col
+  * colgroup內的子標籤為col
+  * col可以決定行的外觀樣式
+  * col可以使用的屬性
+    * span
+    * style
+* 表格通常會搭配CSS進行修飾，使表格更加地美觀好看。
 * * *
 
 

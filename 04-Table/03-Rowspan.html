@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- rowspan屬性 -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>rowspan屬性</title>
+        <style type="text/css">
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- rowspan是垂直方向的合併 -->
+        <table>
+            <caption>個人資料表</caption>
+            <tr>
+                <th>姓名</th>
+                <td>測試人員001</td>
+            </tr>
+            <tr>
+                <th rowspan="2">電話</th>
+                <td>00-1234-567</td>
+            </tr>
+            <tr>
+                <td>0123-456-789</td>
+            </tr>
+        </table>
+    </body>
+</html>
