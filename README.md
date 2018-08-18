@@ -10,7 +10,7 @@
   * [Ch04 - 表格](https://github.com/Ura777/Html5_Tutorial#ch04---%E8%A1%A8%E6%A0%BC)
   * [Ch05 - 表單](https://github.com/Ura777/Html5_Tutorial#ch05---%E8%A1%A8%E5%96%AE)
   * [Ch06 - 超連結](https://github.com/Ura777/Html5_Tutorial#ch06---%E8%B6%85%E9%80%A3%E7%B5%90)
-  * [Ch07 - 使用多媒體素材]()
+  * [Ch07 - 使用多媒體素材](https://github.com/Ura777/Html5_Tutorial#ch07---%E4%BD%BF%E7%94%A8%E5%A4%9A%E5%AA%92%E9%AB%94%E7%B4%A0%E6%9D%90)
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
