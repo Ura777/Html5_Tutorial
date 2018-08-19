@@ -291,7 +291,7 @@
   * 框架式網頁
   * Html5不支援
   * frameset為框架主體
-  * frame為子標籤，定義框架內的網頁內容
+  * frame為子標籤，定義框架內的網頁內容。
   * frameset常用的屬性
     * rows
     * cols
