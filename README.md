@@ -313,7 +313,11 @@
 * video
   * 播放影片的元件
 * 搭配Javascript可以控制audio與video元件
+* iframe
+  * 網頁內部框架
+  * a標籤的target屬性之內容，要與iframe標籤的name屬性名稱一樣。
+  * iframe標籤的src屬性為設定預設網頁的來源
+  * 可以使用iframe嵌入Youtube的影片
 * * *
-
 
 

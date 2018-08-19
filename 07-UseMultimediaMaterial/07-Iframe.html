@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- iframe -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>iframe</title>
+    </head>
+    <body>
+        <h3>使用iframe框架</h3>
+        <p>
+            <!-- target屬性的內容要與iframe的name屬性名稱一樣 -->
+            <a href="07-IframeWebPage01.html" target="myIframe">網頁01</a><br>
+            <a href="07-IframeWebPage02.html" target="myIframe">網頁02</a>
+        </p>
+        <!-- src屬性為設定預設網頁的來源 -->
+        <iframe name="myIframe" src="07-IframeWebPage00.html" width="350" height="380">
+            您的瀏覽器不支援iframe框架
+        </iframe>
+        <p>
+        <h3>嵌入Youtube</h3>
+        <iframe src="http://www.youtube.com/embed/uq2RBrjP3KQ" width="420" height="315" frameborder="0" allowfullscreen>
+            您的瀏覽器不支援iframe框架
+        </iframe>
+        <p>
+            影片來源：<a href="https://www.youtube.com/watch?time_continue=2&v=uq2RBrjP3KQ">蛹化成蝶</a>
+        </p>
+    </body>
+</html>
