@@ -287,6 +287,14 @@
         例如：
         <h2 id="黑面琵鷺">黑面琵鷺</h2>
  
+* frameset、frame
+  * 框架式網頁
+  * Html5不支援
+  * frameset為框架主體
+  * frame為子標籤，定義框架內的網頁內容
+  * frameset常用的屬性
+    * rows
+    * cols
 * * *
 ## Ch07 - 使用多媒體素材
 * img
