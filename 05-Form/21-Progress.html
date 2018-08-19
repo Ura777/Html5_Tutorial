@@ -7,8 +7,31 @@
     </head>
     <body>
         <p>
-            進度條
+            檔案下載進度：
+            <progress id="pb" max="100" value="0"></progress>
+            <span id="sp">0%</span>
         </p>
-        <progress value="50" max="100"></progress>              
+        <script>
+            var progressBar = document.getElementById("pb");
+            var showProgressNumberSpan = document.getElementById("sp");
+            var i = 10;
+            
+            function updateProgress(newValue){
+                progressBar.value = newValue;
+                showProgressNumberSpan.innerText = newValue + "%";
+            }
+
+            function showProgress(){
+                if (i<=100) {
+                    updateProgress(i);
+                    i+=10;
+                }
+                else{
+                    clearInterval();
+                }
+            }
+
+            window.setInterval("showProgress()", 500);
+        </script>
     </body>
 </html>
